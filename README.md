@@ -13,7 +13,6 @@ Website ↓
 
 <img width="900" height="500" alt="Website" src="https://github.com/SILVA1905-js/ProjectFullstack/blob/main/imgs/website.png?raw=true">
 
-link Website :https://silva1905-js.github.io
 ## Features
 
 fetch, post, require | Divs, then, catch ...
@@ -27,9 +26,9 @@ fetch, post, require | Divs, then, catch ...
 - Express
 
 ## LINKS
-Website:https://silva1905-js.github.io/Tic-tac-toe-project/Project/Jogodavelha.html 
+Website:https://silva1905-js.github.io/ProjectFullstack/index1.html
 
-Readme:https://silva1905-js.github.io/Tic-tac-toe-project/
+Readme:https://github.com/SILVA1905-js/ProjectFullstack
 
 
 ## How to Use - Back-End Registration Project
