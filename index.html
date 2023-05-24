@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    
+    
+    
+    <style>
+   body {
+    margin: 0;
+    padding: 0;
+        display: flex;      
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 0;
+    }
+
+
+
+    .Cima {
+        position: absolute  ;
+        margin-left: 40%;
+      
+    }
+
+    .cima2 {
+     
+        width: 110%;
+        height: 600px;
+        background-image: url('https://veolink.com.br/wp-content/uploads/2021/05/24-1.jpg');
+        background-size:cover;
+    background-position: center;
+        
+    }
+
+    #meio{
+position: absolute;
+
+background-color:rgb(28, 29, 31);
+background-size: cover;
+width: 100%;
+height: 90%;
+margin-top: 39.4%;
+       
+    }
+    .conteudo {
+    
+    margin-top: 20px;
+    text-align: end;
+    font-size: 24px;
+    }
+
+    .btn1, .btn2, .btn3 {
+        border: none;
+        color: white;
+        background-color: transparent;
+        cursor: pointer;
+        margin-top: 10%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+
+    .btn1 {
+        color: rgb(156, 255, 7);
+    }
+
+    h1 {
+
+        font-size: 4.0rem;
+        margin-top:8.5%;
+        margin-right: 38%;
+        color: white;
+        margin-left: 8%;
+        position: relative;
+    }
+    p{
+        font-size: 22px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        margin-left: 8%;
+    }
+    .h2{
+        font-size: 2.0rem;
+        margin-left: 25%;
+        right: 100vh;
+    width: 100vw;
+    }
+   .p2{
+    
+margin-right: 15%;
+    color: white;
+    border: 10px;
+   }
+   .img1{
+
+    width: 65%;
+    height: 30%;
+    margin-right: 16%;
+    border-radius: 10%;
+    border-color: black;
+  
+   }
+    .btn4{
+        background-color:rgb(27, 29, 34);
+        color: white;
+        border-radius: 9%;
+        border: none;
+        border-color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 70%;
+        height: 45px;
+        width: 85px;
+        cursor: pointer;
+    }
+    .btn5{
+        width: 8%;
+        height: 10%;
+        padding: 1% 0.0%;
+        margin-left: 13%;
+        background-color: rgb(145, 252, 6);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        border-radius: 9%;
+        border-bottom: 10%;
+        border: black;
+        cursor: pointer;
+    }
+    #meio02{
+        position: absolute;
+        background-image: linear-gradient(0.01deg,rgb(255, 255, 255),rgb(27, 29, 34));
+        background-size: cover;
+        width:100% ;
+        height: 100%;
+        margin-top: 88%;
+    }
+    .hh{
+color: white;
+font-size: 47px;
+
+margin-left: 30%;
+       
+    }
+    .pp{
+       
+        position: absolute;
+        margin-top: 10%;
+    }
+    .img03{
+        position: absolute;
+        border-radius: 6%;
+
+        border-color: black;
+        width: 35%;
+        
+        margin-left: 30%;
+        
+    }
+    #cadastro{
+        
+        position: absolute;
+      width: 10%;
+      height: 10%;
+        margin-top: 150%;
+    }
+    .cadastroh1{
+        display: inline;
+        margin-top: 10px;
+        margin-right: 11%;
+        color: rgb(0, 0, 0);
+    }
+    .Name{
+        color: black;
+       
+    }
+    #quadrado {
+  width: 28%; /* largura do quadrado */
+  height: 0.01%; /* altura do quadrado */
+  background-color: #f1f1f1; /* cor de fundo do quadrado */
+  border: 1px solid #ccc; /* borda do quadrado */
+  text-align:left; /* alinhamento do texto dentro do quadrado */
+  padding: 20px; /* espaço interno do quadrado */
+  margin-left:8% ;
+  border-color: black;
+  border-radius: 4px;
+}
+
+
+.email{
+    color: black;
+    font-size: 22px;
+
+    
+    
+}
+
+
+
+#meuBotao {
+margin-top:2% ;
+margin-left: 8%;
+color: white;
+  background-color: black;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+
+}
+.contato{
+    color: black;
+    margin-left: 7%;
+    
+}
+
+
+    </style>
+
+</head>
+<body>
+    <div class="Cima">
+        <button class="btn1"  >Home</button>
+        <button class="btn2" onclick="scrollToMiddle2()">Pages</button>
+        <button class="btn3" onclick="scrollToMiddle3()">Contact</button>
+        
+    </div>
+
+    <div class="cima2">
+        <h1><strong>Life of a Programmer on The Internet</strong> 
+        </h1>
+        <p>Come be a Web Developer and be part of this daily routine!</p>
+        <button onclick="scrollToMiddle()" class="btn5">Explore I go</button>
+    <p></p>
+    
+    </div>
+    <div id="meio">
+        <div class="conteudo">
+            <h1 class="h2">
+                Index of Job Openings in the Field.</h1>
+            <p class="p2">
+                <img class="img1" src="https://www.devjobsscanner.com/assets/blog/most-demanded-languages-2022/number-jobs-by-month-3.svg" alt="img">
+              </p>
+
+                
+        </div>
+    </div>
+    <div id="meio02">
+        <div class="conteudo02">
+        <h1 class="hh" >Estimated Salary in the Area.</h1>
+        <p class="pp">
+           
+            </p>
+            <img class="img03" src="https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/06/lang-4-41da6fada1c77b52ac6bbb3470a02a0e.png" alt="img02">
+        
+        </div>
+    </div>
+    <div id="cadastro">
+    <img class="contato" src="imgs/cont2.png" alt="contato">
+    <h1 class="email">Alessandror19005@gmail.com
+        Telefone:11998525225         
+     </h1>
+    
+
+
+  
+
+  
+
+
+
+    </div>
+    <script>
+    
+function scrollToMiddle() {
+  const middle = document.getElementById("meio");
+  middle.scrollIntoView({ behavior: 'smooth' });
+}
+function scrollToMiddle2() {
+  const middle = document.getElementById("meio02");
+  middle.scrollIntoView({ behavior: 'smooth' });
+}
+function scrollToMiddle3() {
+  const middle = document.getElementById("cadastro");
+  middle.scrollIntoView({ behavior: 'smooth' });
+}
+
+
+
+
+    </script>
+</body>
+</html>
