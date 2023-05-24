@@ -6,7 +6,12 @@ Functional registration redirecting to a website
 ## Description
 
 In this project, I created two front-end websites, one where you would register and be redirected to the other site. I also developed a back-end connected directly to a database (Mongoose), where the registration data was stored.
-<img width="732" alt="Projeto" src="">
+
+ Register ↑
+<img width="900" height="500" alt="Registro" src="https://github.com/SILVA1905-js/ProjectFullstack/blob/main/imgs/registro.png?raw=true">
+Website ↓ 
+
+<img width="900" height="500" alt="Website" src="https://github.com/SILVA1905-js/ProjectFullstack/blob/main/imgs/website.png?raw=true">
 
 link Website :https://silva1905-js.github.io
 ## Features
@@ -22,11 +27,10 @@ fetch, post, require | Divs, then, catch ...
 - Express
 
 ## LINKS
-Game:https://silva1905-js.github.io/Tic-tac-toe-project/Project/Jogodavelha.html 
+Website:https://silva1905-js.github.io/Tic-tac-toe-project/Project/Jogodavelha.html 
 
 Readme:https://silva1905-js.github.io/Tic-tac-toe-project/
 
-## How to use
 
 ## How to Use - Back-End Registration Project
 
